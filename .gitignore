@@ -12,7 +12,7 @@
 /build
 
 #files
-src/constant/imageText.ts
+src/rest/client.ts
 
 # misc
 .DS_Store

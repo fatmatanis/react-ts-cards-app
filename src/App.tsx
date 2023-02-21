@@ -1,13 +1,13 @@
 import React from "react";
-import { ThemeProvider } from "@emotion/react";
-import CardItem from "./components/CardItem";
-import { imageText } from "./constant/imageText";
-import { theme } from "./styles/styles";
+
+import ThemeProvider from "@mui/material/styles/ThemeProvider";
+
+import { theme } from "./styles/theme";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <CardItem cards={imageText} />
+      <div></div>
     </ThemeProvider>
   );
 }
